@@ -1,0 +1,97 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f4f6f9;
+  color: #111;
+  transition: 0.3s;
+}
+
+/* NAV */
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 30px;
+  background: #1f4e79;
+  color: white;
+}
+
+/* HERO */
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+  background: linear-gradient(135deg, #1f4e79, #2c7da0);
+  color: white;
+}
+
+.hero-buttons a {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 20px;
+  background: white;
+  color: #1f4e79;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* SECTIONS */
+.section {
+  max-width: 1000px;
+  margin: 50px auto;
+  padding: 0 20px;
+}
+
+h2 {
+  border-left: 5px solid #1f4e79;
+  padding-left: 10px;
+}
+
+/* SKILLS */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 10px;
+}
+
+.grid div {
+  background: white;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+/* PROJECT CARDS */
+.card {
+  background: white;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 12px;
+  box-shadow: 0 3px 12px rgba(0,0,0,0.1);
+}
+
+.links a {
+  margin-right: 10px;
+  text-decoration: none;
+  color: #1f4e79;
+  font-weight: bold;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #1f4e79;
+  color: white;
+}
+
+/* DARK MODE */
+.dark {
+  background: #121212;
+  color: white;
+}
+
+.dark .card,
+.dark .grid div {
+  background: #1e1e1e;
+  color: white;
+}
